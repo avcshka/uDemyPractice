@@ -1,4 +1,5 @@
 // ДЗ после 27 урока
+
 function sayHello(name) {
     return `Hello, ${name}`
 }
@@ -19,7 +20,7 @@ function getMathResult(num, repeat) {
     let result = '';
 
     for (let i = 1; i <= repeat; i++) {
-        if (i === repeat) {
+        if (i == repeat) {
             result += `${num * i}`;
         } else {
             result += `${num * i}---`;
