@@ -40,7 +40,9 @@ function isBudgetEnough1(data) {
     let volumeShoppingMall = data.height * sumAreaShops;
     let priceOfArea = data.moneyPer1m3 * volumeShoppingMall;
 
-    budget > priceOfArea ? console.log("Бюджета достаточно") : console.log("Бюджета недостаточно");
+    budget > priceOfArea
+        ? console.log("Бюджета достаточно")
+        : console.log("Бюджета недостаточно");
 }
 
 // Второй вариант (хороший код +-)
